@@ -1,0 +1,40 @@
+body{
+margin:0px; /* sin margenes */
+background-image:url("../imagenes/fondo.jpg");
+/*background-color: rgba(149, 165, 166,1.0);*/
+background-attachment:fixed; /* fondo fijo */
+background-size: 100% 100%;
+background-repeat:none; /*para no repetir*/
+}
+nav{  /*barra de navegacion*/
+	position:fixed;
+	height:65px;  /*alto*/
+	width:100%;   /*ancho*/
+}
+
+ul{ /*contenedor*/
+	margin:0px; /*margen*/
+	padding:0px; /*espacio de relleno entre palabra y fondo*/
+	background-color:#74b9ff;/*color en la barra*/
+	opacity:0.50;
+	display:block;
+	height:65px; /*tamaño*/
+}
+li{ /*lista*/
+	float:left;
+	width:20%;
+	list-style:none;
+	height:50px;
+	display:block;
+}
+#titulo{
+	width:60%;
+}
+a{
+	display:block;
+	width:100%;
+	text-align:center;
+	color:rgb(255,255,255);
+	height:65px;
+  }
+}
